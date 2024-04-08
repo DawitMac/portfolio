@@ -39,7 +39,7 @@ const About = () => {
                   server and database. With my skills in both client-side and server-side
                   technologies, I can develop and deploy dynamic, scalable, and responsive
                   web applications that meet the needs of businesses and users alike. Whether
-                  it's building a beautiful and intuitive user interface or configuring a complex
+                  it&apos;s building a beautiful and intuitive user interface or configuring a complex
                   server infrastructure, I have the expertise to bring a project to life from start to finish.</p>
             </div>
             </RevealWrapper>

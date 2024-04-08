@@ -110,7 +110,7 @@ const Navbar = () => {
                         setOpen(!open)}}>
                <span className='flex items-center justify-center gap-4 md:gap-2 h-8 w-8 dark:text-[#FF9909]'>
                {
-                        theme === "light" ? <Image src="/images/light.svg" width={25} height={25} /> : <Image src="/images/dark.svg" width={25} height={25} className='text-[#FF9909]' />
+                        theme === "light" ? <Image src="/images/light.svg" alt='icon' width={25} height={25} /> : <Image src="/images/dark.svg" alt='icon' width={25} height={25} className='text-[#FF9909]' />
 
                 } 
                </span>

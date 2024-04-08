@@ -39,7 +39,7 @@ const Hero = () => {
         <div className='flex flex-col  justify-center items-center h-full w-auto sm:min-w-fit text-center sm:items-start  md:text-start mx-auto'>
           <p className='text-xl sm:text-md font-semibold sm:ml-2 text-[#FF9909] mb-1'>Hello</p>
           <span className='text-4xl sm:text-5xl font-bold dark:text-slate-100  mb-3'>
-            I'm <span className='text-[#FF9909]'>Dawit Mekonen</span>
+            I&apos;m <span className='text-[#FF9909]'>Dawit Mekonen</span>
           </span>
           <p className='md:text-xl text-lg md:mb-6 mb-3 max-w-3xl text-gray dark:text-slate-100 leading-8'>
            A Freelance Website Designer and <br /> Full Stack Developer

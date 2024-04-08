@@ -65,7 +65,7 @@ const Testimonials = () => {
     <div className = 'mx-auto md:h-screen  max-w-screen-lg flex flex-col items-center justify-center mb-10'>
       <div className='flex flex-col items-start justify-center'>
       <div className='flex flex-col items-center justify-center gap-2 mx-4 md:mx-0'>
-              <h1 className='md:text-5xl text-4xl text-center font-mono font-bold md:mb-3 mb-2 dark:text-slate-100'>What Client's Say</h1>
+              <h1 className='md:text-5xl text-4xl text-center font-mono font-bold md:mb-3 mb-2 dark:text-slate-100'>What Client&apos;s Say</h1>
               <div className='flex items-center justify-center border-[3px] border-[#FF9909] w-24 md:mb-10 mb-0'></div> 
           </div>
       </div>
