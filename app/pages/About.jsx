@@ -1,4 +1,4 @@
-//import david from '../images/david1.png'
+"use client"
 import Image from 'next/image'
 import { RevealWrapper } from  'next-reveal'
 import { Suspense } from 'react'

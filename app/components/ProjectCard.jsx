@@ -1,6 +1,6 @@
-"use client";
+"use client"
 
-const { cn } = require("@/utils/cn");
+import  { cn } from "@/utils/cn"
 import React , { useEffect, useState, useRef , Suspense } from "react";
 import Image from "next/image";
 
@@ -16,7 +16,7 @@ const ProjectCard = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, [addAnimation]);
 
   const [start, setStart] = useState(false);
 
@@ -82,7 +82,7 @@ const ProjectCard = ({
         )}
       >
         {items.map((item, idx) => (
-          <li
+          <li 
             className="w-[300px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[350px]"
             style={{
               background:
@@ -120,7 +120,7 @@ const ProjectCard = ({
                     }>
                     <Image width={130} height={130} src={item?.icon} alt="icon" className='mx-auto'/>
                     </Suspense>
-                  <span className=" text-lg leading-[1.6] text-white font-normal">
+                  <span className="text-lg leading-[1.6] text-white font-normal">
                     {item.name}
                   </span>
                 </span>

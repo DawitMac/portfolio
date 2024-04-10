@@ -1,3 +1,4 @@
+"use client"
 import { HoverEffect } from '../components/ServiceCard'
 import { RevealList } from "next-reveal"
 

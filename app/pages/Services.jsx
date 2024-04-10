@@ -1,3 +1,4 @@
+"use client"
 import { RevealList } from "next-reveal"
 import ProjectCard from "../components/ProjectCard"
 
